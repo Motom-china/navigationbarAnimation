@@ -15,6 +15,7 @@
 		468BDFDB1D6582B600BEEFF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468BDFD91D6582B600BEEFF2 /* LaunchScreen.storyboard */; };
 		468BDFE61D6582B600BEEFF2 /* ____navigationbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 468BDFE51D6582B600BEEFF2 /* ____navigationbarTests.m */; };
 		468BDFF11D6582B600BEEFF2 /* ____navigationbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 468BDFF01D6582B600BEEFF2 /* ____navigationbarUITests.m */; };
+		468BE0031D658CDB00BEEFF2 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468BE0021D658CDB00BEEFF2 /* TestViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		468BDFEC1D6582B600BEEFF2 /* 下拉隐藏navigationbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下拉隐藏navigationbarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		468BDFF01D6582B600BEEFF2 /* ____navigationbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____navigationbarUITests.m"; sourceTree = "<group>"; };
 		468BDFF21D6582B600BEEFF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468BE0011D658CDB00BEEFF2 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		468BE0021D658CDB00BEEFF2 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				468BDFD91D6582B600BEEFF2 /* LaunchScreen.storyboard */,
 				468BDFDC1D6582B600BEEFF2 /* Info.plist */,
 				468BDFCB1D6582B600BEEFF2 /* Supporting Files */,
+				468BE0011D658CDB00BEEFF2 /* TestViewController.h */,
+				468BE0021D658CDB00BEEFF2 /* TestViewController.m */,
 			);
 			path = "下拉隐藏navigationbar";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				468BDFD31D6582B600BEEFF2 /* ViewController.m in Sources */,
 				468BDFD01D6582B600BEEFF2 /* AppDelegate.m in Sources */,
+				468BE0031D658CDB00BEEFF2 /* TestViewController.m in Sources */,
 				468BDFCD1D6582B600BEEFF2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +505,7 @@
 				468BDFF71D6582B600BEEFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		468BDFF81D6582B600BEEFF2 /* Build configuration list for PBXNativeTarget "下拉隐藏navigationbarTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				468BDFFA1D6582B600BEEFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		468BDFFB1D6582B600BEEFF2 /* Build configuration list for PBXNativeTarget "下拉隐藏navigationbarUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				468BDFFD1D6582B600BEEFF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
