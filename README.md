@@ -1,0 +1,2 @@
+# navigationbarAnimation
+根据tableview滚动 使navigationbar隐藏或者显示
